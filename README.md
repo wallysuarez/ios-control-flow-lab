@@ -1,6 +1,13 @@
 # Control Flow Lab
 
-Fork and clone this repo. On your fork, answer and commit the follow questions. When you are finished, submit the link to your repo on Canvas.
+## Instructions for lab submission
+
+1. Fork the assignment repo
+1. Clone your Fork to your machine
+1. Complete the lab
+1. Push your changes to your Fork
+1. Submit a Pull Request back to the assignment repo
+1. Paste a link to of your Fork on Canvas and submit
 
 ## Question 1
 
@@ -19,13 +26,14 @@ if conditionTwo {
  print("C")
 }
 print("D")
+```
 
 - A
 - B
 - C
 - D
-```
 
+***
 ## Question 2
 
 What will the code block below print?  Select all that apply:
@@ -40,18 +48,15 @@ switch appInfo {
  default:
  print("I'm not quite sure what you are looking at")
 }
-
-- appInfo.0 hasn't released yet
-
-- myCoolApp hasn't released yet
-
-- Thanks for looking at myCoolApp!
-
-- I'm not quite sure what you are looking at
-
-- It will give a compile-time error
 ```
 
+- appInfo.0 hasn't released yet
+- myCoolApp hasn't released yet
+- Thanks for looking at myCoolApp!
+- I'm not quite sure what you are looking at
+- It will give a compile-time error
+
+***
 ## Question 3
 
 What will be printed to the console when the code below is run?  Select all that apply.
@@ -68,16 +73,14 @@ case is Double:
 default:
  print("D")
 }
-
-- A
-
-- B
-
-- C
-
-- D
 ```
 
+- A
+- B
+- C
+- D
+
+***
 ## Question 4
 
 What are the errors in the code below for the switch statement? Select all that apply.
@@ -93,18 +96,14 @@ case "skittles":
 case "snickers":
  print("Hungry? Grab a Snickers")
 }
-
-
-- No parentheses around the conditions
-
-- No opening and closing brackets in each of the cases
-
-- No default case in the switch statement
-
-- No print statement right outside the switch statement
-
 ```
 
+- No parentheses around the conditions
+- No opening and closing brackets in each of the cases
+- No default case in the switch statement
+- No print statement right outside the switch statement
+
+***
 ## Question 5
 
 Given the current weather conditions (rain, sunny, snow), use a switch statement to print an appropriate message to the user
@@ -115,9 +114,10 @@ let currentWeather = "rain"
 // enter code below
 ```
 
+***
 ## Question 6
 
-Given the first name and last name of a Fellow, declare fullName variable and use string interpolation to concatenate the Fellow's full name and print to the console e.g The Fellow's full name is John Appleseed
+Given the first name and last name of a Fellow, declare `fullName` variable and use string interpolation to concatenate the Fellow's full name and print to the console e.g The Fellow's full name is John Appleseed
 
 ```swift
 let firstName = "John"
@@ -125,3 +125,5 @@ let lastName = "Appleseed"
 
 // enter code below
 ```
+
+***
